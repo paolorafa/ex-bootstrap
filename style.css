@@ -1,0 +1,30 @@
+.play{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+i{
+    display: block;
+   
+}
+
+.play{
+    transform: translate(0px, 10px);
+    border: 2px solid black;
+    
+}
+
+
+.play:hover {
+    transition: transform 1s ease-out .1s ;
+    transform: scale(1.1);
+}
+
+.play a{
+    color: black;
+}

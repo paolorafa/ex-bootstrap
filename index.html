@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/bootstrap-5.3.0-dist/css/bootstrap.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Document</title>
+  </head>
+
+  <body class="font-family-Roboto">
+    <nav
+      id="navbar-example2"
+      class="navbar navbar-light bg-light px-3 mb-3 fixed-top">
+      <a class="navbar-brand" href="#"><img src="assets/logo sito.png" alt="" style="width: 40px"/></a>
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link" href="#scrollspyHeading1">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#scrollspyHeading2">Card</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#scrollspyHeading3">Third</a></li>
+            <li><a class="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
+            <li><hr class="dropdown-divider"></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <div
+      data-bs-spy="scroll"
+      data-bs-target="#navbar-example2"
+      data-bs-root-margin="0px 0px -40%"
+      data-bs-smooth-scroll="true"
+      class="scrollspy-example bg-body-tertiary p-3 rounded-2"
+      tabindex="0"></div>
+
+    <div id="scrollspyHeading1">
+      <div class="container-fluid bg-success">
+          <div class="card text-bg-success border-0 rounded-0">
+            <img
+              src="assets/dischi_italiani-2022-fino-a-oggi.webp"
+              class="card-img"
+              alt="..." />
+            <div class="card-img-overlay d-flex justify-content-center align-items-center" >
+              <div class="container d-flex flex-column justify-content-center align-items-center" >
+              <h1 class="card-title display-1 custom-testo" style="color: #dc1f19; font-weight: bold; text-shadow: 5px 5px 3px #ffffff">My best album</h1>
+              <div class="d-grid gap-2 col-3 mx-auto">
+                <button class="btn btn-outline-success" type="button" style="color: black; font-weight: bold;">Play</button>
+              </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+
+    <div id="scrollspyHeading2">
+      <div class="container-fluid bg-success">
+        <div class="row bg-success d-flex justify-content-center align-items-baseline">
+          <div class="row row-cols-2 row-cols-md-4 g-4 my-5">
+            <div class="col shadow p-1 mb-3 rounded">
+              <div class="card h-100">
+                <img
+                  src="assets/I_fought_the_law.jpeg"
+                  class="card-img-top"
+                  alt="..."
+                  class=""/>
+
+                <div class="card-body d-flex flex-column justify-content-center align-items-center" >
+                  <h6 class="card-title text-center">I Fought the Law</h6>
+                  <p class="card-text fw-bold text-danger text-center">
+                    <img
+                      src="assets/logo clash.jpeg"
+                      alt=""
+                      style="width: 30px"
+                    />
+                  </p>
+                  <div class="container-fluid d-flex justify-content-between align-items-baseline my-2">
+                    <small class="" style="font-size: 10px">
+                      Rock - 26 giugno 1979
+                    </small>
+                    <small class="" style="font-size: 10px">Durata: 2:38 </small>
+                  </div>
+                  <div class="play"><a href="https://www.youtube.com/watch?v=AL8chWFuM-s"><i class="fa-solid fa-play"></i></a></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col shadow p-1 mb-3 rounded">
+              <div class="card h-100">
+                <img src="assets/doors.jpeg" class="card-img-top" alt="..." />
+
+                <div class="card-body d-flex flex-column justify-content-center align-items-center" >
+                  <h6 class="card-title text-center">Riders On The Storm</h6>
+                  <p class="card-text fw-bold text-danger text-center">
+                    <img
+                      src="assets/logo doors.png"
+                      alt=""
+                      style="width: 70px"
+                    />
+                  </p>
+
+                  <div class="container-fluid d-flex justify-content-between align-items-center my-2">
+                    <small class="" style="font-size: 10px">
+                      Rock - giugno 1971
+                    </small>
+                    <small class="" style="font-size: 10px">Durata: 7:10 </small>
+                  </div>
+
+                  <div class="play"> <a href="https://www.youtube.com/watch?v=iv8GW1GaoIc"> <i class="fa-solid fa-play"></i></a></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col shadow p-1 mb-3 rounded">
+              <div class="card h-100">
+                <img
+                  src="assets/ab67616d0000b2735d48e2f56d691f9a4e4b0bdf.jpeg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div
+                  class="card-body d-flex flex-column justify-content-center align-items-center"  >
+                  <h6 class="card-title text-center">Goodbye Blue Sky</h6>
+                  <p class="card-text">
+                    <img
+                      src="assets/pink floyd logo.png"
+                      alt=""
+                      style="width: 60px"
+                    />
+                  </p>
+
+                  <div class="container-fluid d-flex justify-content-between align-items-center my-2">
+                    <small class="" style="font-size: 10px">
+                      Rock-30 novembre 1979
+                    </small>
+                    <small class="" style="font-size: 10px">Durata:4:35 </small>
+                  </div>
+                  <div class="play"> <a href="https://www.youtube.com/watch?v=bn6YnUt4Vuk"><i class="fa-solid fa-play"></i></a></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col shadow p-1 mb-3 rounded">
+              <div class="card h-100">
+                <img
+                  src="assets/Bob_Dylan_-_The_Times_They_Are_a-Changin'.jpeg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div
+                  class="card-body d-flex flex-column justify-content-center align-items-center "">
+                  <h6 class="card-title text-center">
+                    The Times They Are A-Changin'
+                  </h6>
+                  <p class="card-text">
+                    <img
+                      src="assets/Bob-Dylan-2020-logo.png"
+                      alt=""
+                      style="width: 60px"
+                    />
+                  </p>
+
+                  <div class="container-fluid d-flex justify-content-between align-items-center my-2">
+                    <small class="" style="font-size: 10px">
+                      Rock - August 6 1963
+                    </small>
+                    <small class="" style="font-size: 10px">Durata: 3:25</small>
+                  </div>
+
+                  <div class="play"><a href="https://www.youtube.com/watch?v=90WD_ats6eE"><i class="fa-solid fa-play"></i></a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+   <div id="scrollspyHeading3">
+    <div class="container-fluid bg-success d-flex justify-content-center">
+        <div class="card mb-2 mx-4 row-cols-sm-1" style="max-width: 740px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="assets/FASK_2017_def.jpeg" class="img-fluid rounded-start" alt="..." />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Forse non è la felicità</h5>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+                <div class="play"><a href="https://www.youtube.com/watch?v=Vs6CZe_lBSE&list=OLAK5uy_m6Ie_bDSvHfEABYQMVnfix5zL7LdEQrSo&index=3"><i class="fa-solid fa-play"></i></a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+</div> 
+
+    <script src="/bootstrap-5.3.0-dist/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
